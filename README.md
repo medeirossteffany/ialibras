@@ -8,13 +8,6 @@ Como tornar **acessível** o reconhecimento de sinais de Libras **sem luvas espe
 Aqui, você **coleta seus próprios exemplos** (CSV com landmarks das mãos) e o sistema **reconhece em tempo real** comparando o que a câmera vê com o que já foi gravado.
 
 ---
-
-## 🚀 Funcionalidades
-- **Treinamento (`treino.py`)**: captura landmarks (21 pontos por mão) via webcam e **salva em CSV** por **sinal** e **etapa**.
-- **Detecção (`deteccao.py`)**: lê os CSVs, **compara** com a pose atual e **exibe o rótulo** do sinal mais provável.
-- **Visualização**: desenha e numera os landmarks (OpenCV + MediaPipe) para orientar o posicionamento da mão.
-
----
 ## 🧠 Como funciona (resumo)
 
 1. **MediaPipe Hands** retorna **21 landmarks** por mão (coordenadas normalizadas X/Y/Z).
