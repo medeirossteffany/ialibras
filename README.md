@@ -1,8 +1,9 @@
-# 📘 Reconhecimento de Sinais em Libras com IA (Python + OpenCV + MediaPipe)
+# Reconhecimento de Sinais em Libras com IA (Python + OpenCV + MediaPipe)
 
 Projeto **simples e de baixo custo** para **capturar (treinar)** e **reconhecer (detectar)** sinais em **Libras** usando apenas **webcam + IA** (OpenCV + MediaPipe).  
 > **Destaque:** Este projeto recebeu **destaque no Samsung Innovation Campus (Programação Python e Introdução à IA)** e foi **avaliado por professores da USP**.
 
+---
 ## 💡 Problema que resolvemos
 Como tornar **acessível** o reconhecimento de sinais de Libras **sem luvas especiais ou sensores caros**?  
 Aqui, você **coleta seus próprios exemplos** (CSV com landmarks das mãos) e o sistema **reconhece em tempo real** comparando o que a câmera vê com o que já foi gravado.
@@ -21,17 +22,19 @@ Aqui, você **coleta seus próprios exemplos** (CSV com landmarks das mãos) e o
 
 ---
 
-### ▶️ Execução (bem simples)
+### ▶️ Execução
 
-1) Abra o terminal na pasta do projeto.  
+1. Abra o terminal na pasta do projeto.
 
-2) Para **treinar/coletar** os sinais:
+2. Para **treinar/coletar** os sinais:
 ```bash
-run python file coletagem.py
+python coletagem.py
+```
 
-Para **detectar em tempo real**:
+3. Para **detectar em tempo real**:
 ```bash
-run python file coletagem.py
+python main.py
+```
 
 ---
 
@@ -46,8 +49,15 @@ run python file coletagem.py
 
 ## 📦 Instalação
 
-### 0) Clonar o projeto
+### 0. Clonar o projeto
 ```bash
 git clone https://github.com/seu-usuario/libras-mediapipe-opencv.git
+```
+
+### 1. Instalar dependências
+```bash
 pip install opencv-python mediapipe numpy pandas
-run python file
+```
+
+
+
