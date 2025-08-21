@@ -51,7 +51,7 @@ python main.py
 
 ### 0. Clonar o projeto
 ```bash
-git clone https://github.com/seu-usuario/libras-mediapipe-opencv.git
+git clone https://github.com/seu-usuario/libras-mediapipe-opencv.git](https://github.com/medeirossteffany/ialibras.git)
 ```
 
 ### 1. Instalar dependências
